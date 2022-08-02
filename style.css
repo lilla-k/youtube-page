@@ -14,19 +14,13 @@ header {
     align-items: center;
 }
 
-#youtube-icon {
-color: black;
-font-weight: 700;
-letter-spacing: -1px;
-text-decoration: none;
-font-size: 20px;
+#bar {
+    display: flex;
 }
-
-#youtube-icon span {
-    position: relative;
-    bottom: 10px;
-    font-size: 10px;
-}
+#bar-button {
+    border: none;
+    background-color: white;
+    }
 
 #search {
     display: flex;
@@ -54,8 +48,25 @@ font-size: 20px;
     margin-left: 8px;
 }
 
+#settings{
+    display: flex;
+}
+#upload {
+    border: none;
+    background-color: white;
+}
+
+#notifications {
+    border: none;
+    background-color: white;
+}
 #profile {
+    height: 32px;
+    width: 32px;
     border-radius: 50%;
+    background-color: grey;
+    color: white;
+    border: none;
 }
 
 #nav {
@@ -97,4 +108,6 @@ display: flex;
 
 #videos img{
     margin: 12px;
+    height: 160px;
+    width: 290px;
 }

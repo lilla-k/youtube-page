@@ -1,6 +1,7 @@
 * {
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -14,17 +15,19 @@ header {
     align-items: center;
 }
 
-#bar {
+#nav-left {
     display: flex;
 }
+
 #bar-button {
     border: none;
     background-color: white;
-    }
+}
 
 #search {
     display: flex;
 }
+
 #search-input {
     height: 40px;
     width: 350px;
@@ -48,18 +51,18 @@ header {
     margin-left: 8px;
 }
 
-#settings{
-    display: flex;
-}
 #upload {
     border: none;
     background-color: white;
+    margin: 0 10px;
 }
 
 #notifications {
     border: none;
     background-color: white;
+    margin: 0 10px;
 }
+
 #profile {
     height: 32px;
     width: 32px;
@@ -67,23 +70,39 @@ header {
     background-color: grey;
     color: white;
     border: none;
+    margin: 0 10px;
 }
 
 #nav {
-    width: 72px;
-}
-#nav button {
-    background-color: transparent;
-    border: 0px;
-    height: 72px;
-    width: 74px;
+    width: 180px;
 }
 
-#nav button:hover{
-background-color: rgba(0, 0, 0, 0.05);
+#nav button {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    border: 0px;
+    height: 36px;
+    width: 160px;
+    font-size: 12px;
 }
-#nav button div {
-    margin-top: 8px;
+
+#nav button i {
+    padding: 20px;
+}
+
+#nav button:first-of-type {
+    background-color: rgb(216, 209, 209);
+    margin-top: 10px;
+}
+
+#nav button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+#nav h1 {
+text-transform: uppercase;
+padding: 10px 25px;
+color: grey;
 }
 
 #filter {
@@ -92,22 +111,69 @@ background-color: rgba(0, 0, 0, 0.05);
 }
 
 #filter button {
- background-color: rgba(0, 0, 0, 0.05);
- border-radius: 16px;
- border: 1px solid #ccc;
- height: 32px;
- margin: 12px 6px;
- padding: 0 12px;
-}
-section {
-display: flex;
-}
-#main-content {
-    width: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    height: 32px;
+    margin: 12px 6px;
+    padding: 0 12px;
 }
 
-#videos img{
+section {
+    display: flex;
+}
+
+
+#videos {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+/* #video1 {
+    background-color: blueviolet;
+    padding: 5px;
+}
+
+#video2 {
+    background-color: grey;
+    padding: 5px;
+}
+#video3 {
+    background-color: yellow;
+    padding: 5px;
+}
+
+#video4 {
+    background-color: red;
+    padding: 5px;
+} */
+
+#video1 i {
+    display: inline;
+}
+
+h1 {
+    font-size: 12px;
+    margin: 0;
+}
+
+#profile-icon {
+    margin: 0 20px;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    color: black
+}
+
+span {
+    font-size: 10px;
+}
+
+#videos img {
     margin: 12px;
-    height: 160px;
-    width: 290px;
+    width: 240px;
 }

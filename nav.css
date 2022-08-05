@@ -1,0 +1,32 @@
+
+#nav {
+    width: 180px;
+}
+
+#nav button {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    border: 0px;
+    height: 36px;
+    width: 160px;
+    font-size: 12px;
+}
+
+#nav button i {
+    padding: 20px;
+}
+
+#nav button:first-of-type {
+    background-color: rgb(216, 209, 209);
+    margin-top: 10px;
+}
+
+#nav button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+#nav h1 {
+text-transform: uppercase;
+padding: 10px 25px;
+color: grey;
+}

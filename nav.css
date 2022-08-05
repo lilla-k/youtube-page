@@ -25,8 +25,10 @@
 #nav button:hover {
     background-color: rgba(0, 0, 0, 0.05);
 }
-#nav h1 {
+#subscriptions {
 text-transform: uppercase;
-padding: 10px 25px;
+padding: 15px 15px;
 color: grey;
+font-size: 12px;
+font-weight:700;
 }

@@ -8,11 +8,12 @@ header {
 
 #nav-left {
     display: flex;
-}
+    }
 
 #bar-button {
     border: none;
     background-color: white;
+    margin: 0 15px;
 }
 
 #search {

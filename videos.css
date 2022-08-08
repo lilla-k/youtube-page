@@ -18,7 +18,7 @@ img {
 .img-container {
     width: 240px;
     height: 134px;
-    overflow:hidden;
+    /* overflow:hidden; */
 }
 
 .details {
@@ -76,15 +76,17 @@ img {
     visibility: visible;
 }
 
-
+.img-container {
+    position: relative;
+}
 .video-preview {
-    display: none;
-}
-
-.video-card:hover .static-image {
-    display: none;
-}
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+    }
 
 .video-card:hover .video-preview {
-    display: block;
+        opacity: 1;
+    transition: opacity 0.8s linear;
 }
+

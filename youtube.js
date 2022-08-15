@@ -47,5 +47,16 @@ for (let i=0; i < videos.length; i++) {
     const videoCard = document.createElement("div");
     document.querySelector("#videos").appendChild(videoCard);
     const imageContainer = document.createElement("div");
-    document.querySelector(".videocard").appendChild(imageContainer);
+    videoCard.appendChild(imageContainer);
+    const videoPreview = document.createElement("img");
+    imageContainer.appendChild(videoPreview);
+    const staticImage = document.createElement("img");
+    imageContainer.appendChild(staticImage);
+    const details = document.createElement("a");
+    videoCard.appendChild(details);
+    const profileIcon = document.createElement("div");
+    details.appendChild(profileIcon);
+    const userIcon = document.createElement("i");
+    profileIcon.appendChild(userIcon);
+    const intro = document.createElement("div")
 }
